@@ -1,0 +1,42 @@
+# Site settings
+title: ONE
+tagline : "그로스해커로 살아보자"
+description: "어제보다 더 growth한 오늘을 살아갑니다."
+url: "https://growth-hacker.kr"
+author:
+  name: "ONE"
+  email: "wowo0814@naver.com"
+  url: "https://growth-hacker.kr"
+
+# 블로그 disqus shortname
+disqus:
+  shortname: growth-hacker-kr
+
+# Build settings
+baseurl: /
+markdown: kramdown
+permalink: /:title
+paginate: 8
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
