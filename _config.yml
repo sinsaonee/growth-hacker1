@@ -13,7 +13,7 @@ disqus:
   shortname: growth-hacker-kr
 
 # Build settings
-baseurl: /growth-hacker.kr
+baseurl: /
 markdown: kramdown
 permalink: /:title
 paginate: 8
