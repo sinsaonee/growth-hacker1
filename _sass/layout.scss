@@ -183,7 +183,8 @@ html, body {
   font-weight: 200;
   @media (min-width: 940px) {
     display: block;
-    color: lighten($text-color, 25%);
+		color: lighten(#222222, 25%)
+    // color: lighten($text-color, 25%);
     line-height: 1.3334em; /* 24px/18px */
     margin-bottom: 1.3334em; /* 24px/18px */
     font-weight: 200;
