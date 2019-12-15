@@ -1,5 +1,6 @@
 /* -- General Layout -- */
 
+@import url('https://fonts.googleapis.com/css?family=Jua&display=swap&subset=korean');
 /* Required for footer to stick to the bottom */
 html, body {
 	height: 100%;
@@ -137,7 +138,7 @@ html, body {
   	display: block;
   }
   h1 {
-  	font-family: 'Signika', sans-serif; //Emerald logo font
+  	font-family: 'Jua', sans-serif; //Growth Diary logo font
     font-weight: 600;
   }
   &:after {
@@ -273,4 +274,24 @@ footer {
 	position: absolute;
   width: 100%;
   bottom: 0;
+}
+// selfidea
+#gotohome {
+	text-align: center;
+  padding: 24px 0;
+  position: relative;
+  a {
+  	text-decoration: none;
+  	color: #483a87;
+  	display: inline-block;
+  }
+  img {
+  	max-height: 72px;
+  	margin: 0 auto;
+  	display: block;
+  }
+  h1 {
+  	font-family: 'Jua', sans-serif; //Growth Diary logo font
+    font-weight: 600;
+  }
 }
