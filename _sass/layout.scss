@@ -206,8 +206,9 @@ img[title="Growth Rocket"] {
   }
 
 code {
-  color: lighten($text-color, 35%);
-  background-color: lighten($background-color, 35%);
+	// color: lighten($text-color, 35%);
+  // background-color: lighten($background-color, 35%);
+	font-weight: bold;
 }
 
 
